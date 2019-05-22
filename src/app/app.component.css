@@ -1,0 +1,50 @@
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    width: 100%;
+    min-height: 44px;
+    height: auto;
+    text-overflow: ellipsis;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.timeStamp {
+    float: right;
+    font-size: 0.7rem;
+    color: #7B8788;
+    padding: 3px 10px;
+}
+
+ul li .fa-trash {
+    float: right;
+    color: #FF3031;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.fa-check {
+    cursor: pointer;
+}
+
+ul li .fa-check {
+    float: right;
+    color: #1BCA9B;
+    padding: 4px;
+}
+
+.button-conatiner {
+    margin: 5px;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #F7F7F7;
+}
